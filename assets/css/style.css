@@ -1,0 +1,330 @@
+#adminmenu .wp-menu-image img {
+    width: 20px;
+}
+
+#plagiarism_active label{
+	font-size: 14px;
+}
+#plagiarism_active th{
+	text-align:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#plagiarism_active td{
+    padding-bottom: 20px;
+}
+
+#plagiarism_active{
+    margin: 20px 0px;
+    padding: 10px 0px 10px 20px;
+    background: whitesmoke;
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+}
+.submit {
+    margin-top: 20px !important;
+	margin-left: 0px !important;
+}
+
+#plagiarism_active td:last-child {
+    padding-bottom: 5px;
+}
+
+/*tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.tooltip.marge {
+    margin-left: -42px;
+}
+.tooltip.marge2 {
+    margin-left: -26px;
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+    background-color: rgba(0,139,139,.7);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 2px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.tooltip-right {
+    top: -4px;
+    left: 140%;
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(0,139,139,.7) transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fa {
+    font: normal normal normal 14px/2 FontAwesome;
+}
+
+.fa-lg {
+    color: darkcyan !important;
+}
+
+.fa-exclamation-circle::before {
+    color: rgb(212,55,29);
+}
+.tooltiptext.tooltip-right.error {
+    width:350px !important;
+    padding-top:2px;
+    background-color: rgba(212,55,29,.9);
+}
+.tooltiptext.tooltip-right.error::after {
+    border-color: transparent rgba(212,55,29,.7) transparent transparent;
+}
+.marge1 {
+    margin-left: 0px;
+}
+
+#plag_button{
+    border-top: 1px dashed teal;
+    margin: 0 10px 15px;
+    padding-top: 27px;
+    text-align: center;
+    border: 1px solid #007cba;
+    background: #f3f4f5;
+}
+
+/*account_details table*/
+.account, .option {
+    font-size: 14px;
+    width: 60%;
+}
+
+.account caption, .option caption{
+    background: teal none repeat scroll 0 0;
+    color: snow;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+
+.account td,.option td {
+    text-align: center;
+}
+.account th, .account td,.option th, .option td {
+    color: teal;
+    font-size: 15px;
+    padding: 10px 0 13px 10px;
+    border: 2px solid teal;
+}
+
+#plag_submit{
+    background: #298560;
+    border: medium none;
+    border-radius: 29px;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 0 15px;
+    text-shadow: none;
+    font-family: tahoma;
+}
+
+@-webkit-keyframes animate-stripes {
+   100% { background-position: -100px 0px; }
+}
+
+@keyframes animate-stripes {
+   100% { background-position: -100px 0px; }
+}
+#account_details, #submit_del, #setting_details{
+    background: teal none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 29px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 7px 30px;
+    text-align: center;
+    text-shadow: none;
+}
+
+#account_change input[type="email"], #account_change input[type="text"]{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    color: #32373c;
+    outline: 0 none;
+    padding: 5px 0 8px 20px;
+    transition: border-color 50ms ease-in-out 0s;
+    width: 300px;
+}
+/*new list*/
+.col-xs-12, .col-sm-6, .col-md-3{
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+}
+.pro_plan_list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.pro_plan_list li.pro_plan_title{
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: #faa916;   
+    border-radius: 10px 10px 0px 0px;
+    padding: 2px 0px;
+}
+.black_bg {
+    background: #222222 !important;
+} 
+.orange_bg {
+    background: #faa916 !important;
+} 
+.pro_plan_list li.pro_plan_price {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+.pro_plan_list li.pro_plan_price i {
+    font-size: 20px;
+    color: #faa916;
+}
+.pro_plan_list li.pro_plan_price h3 {
+    margin-top: -8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.pro_plan_list li.pro_plan_feature {
+    font-size: 14px;
+    color: #fff;
+    background: #faa916;
+    padding: 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.pro_plan_list li.pro_plan_feature form{
+    margin: 5px 0px;
+}
+.pro_plan_list {
+    box-shadow: 15px 15px 15px 0px lightgrey !important;
+    border-radius: 10px;
+}
+.pro_plan_list:hover {
+    box-shadow: 15px 15px 15px 0px #dfdfdf !important;
+}
+.single_add_to_cart_button{
+    margin: 0px auto; 
+    display: block;
+    background: #222222;
+    border: none !important;
+    color: #fff;
+    box-shadow: none !important;
+    margin-top: 8px;
+    padding: 0px 20px;
+}
+
+.pcp-lang-radio-div{
+    float: left;
+padding: 5px;
+text-align: left;
+}
+.pcp-lang-radio-div > span{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.pcp-lang-radio{
+    margin-right: 2px !important;
+}
+
+/* Tabs*/
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.days-selected{
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px 9px;
+    transition: 0.3s;
+    margin: 0px;
+    background-color: #cccccc;
+    border-radius: 15px;
+}
+/* Pagination*/
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
